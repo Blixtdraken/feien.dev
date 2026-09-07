@@ -1,0 +1,87 @@
+@import "root.css";
+
+.header{
+    position: fixed;
+    width: 100%;
+    align-content: center;
+}
+
+
+.header .content{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0rem;
+    align-self: auto;
+    text-align: left;
+    background: var(--backgroundAlt);
+    display: flex;
+    justify-content: space-between;
+}
+.header .content h1{
+    margin: 0vw;
+    font-size: 3rem;
+    color: var(---foreground);
+    transition: 0.15s;
+}
+.header .content h1 a{
+    text-decoration: none;
+    color: var(---foreground);
+}
+.header .content h1:hover{
+    transform: scale(1.05);
+}
+
+.header .links{
+    display: flex;
+    justify-content: space-between
+}
+
+.header .links a{
+    text-align: right;
+    align-self: center;
+    margin: 0rem;
+    color: var(--foreground);
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.header .links hr{
+    background-color: var(--foreground);
+    color: var(--foreground);
+    border-color: var(--foreground);
+    border: none;
+    width: 0.15rem;
+}
+
+.header .links a:hover{
+    color: var(--selection);
+    transform: rotate(1deg) scale(1.1);
+}
+
+.header .bottomDecorator {
+    position: fixed;
+    align-self: center;
+    transform: rotate(45deg);
+    background: var(--backgroundAlt);
+    width: 15rem;
+    height: 15rem;
+    margin-left: calc(50% - 7.5rem);
+    margin-right: calc(50% - 7.5rem);
+    margin-top: -4rem;
+    border-radius: .2rem;
+}
+.header .bottomDecorator img{
+    width: 10rem;
+    height: 10rem;
+    transform: rotate(-45deg) translateY(6rem);
+    border-radius: 5rem;
+    transition: 0.15s;
+}
+.header .bottomDecorator img:hover{
+    transform: rotate(-45deg) translateY(6rem) scale(1.05)  ;
+}

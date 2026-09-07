@@ -1,0 +1,7 @@
+[
+  {
+    "label": "Run Debug Web",
+    "command": "npx http-server -o ./ -p 80 --log-ip",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+  }
+]

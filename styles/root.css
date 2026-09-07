@@ -1,0 +1,9 @@
+:root {
+  --background: #121824;
+  --backgroundAlt: #7cafd1;
+  --foreground: #ffffff;
+  --selection: #cccccc;
+  --highlight: #b3aae2;
+  --shadow: var(--background)*0.9;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
